@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alliance Against Trafficking</title>
+  <style>
+    body{font-family:system-ui,Arial;margin:20px;background:#f7fbfd;color:#10202b}
+    .wrap{max-width:880px;margin:0 auto;background:white;padding:20px;border-radius:8px;box-shadow:0 6px 24px rgba(16,32,48,0.06)}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .logo{background:#0b67a4;color:#fff;padding:10px 14px;border-radius:8px;font-weight:700}
+    h1{margin:8px 0 4px;font-size:20px}
+    p.lead{color:#445b6b;margin:6px 0 12px}
+    .hotline{background:#eef8ff;padding:12px;border-radius:8px;margin:12px 0}
+    a.tel{color:#0b67a4;font-weight:700;text-decoration:none}
+    .card{border:1px solid #eef6fb;padding:12px;border-radius:8px;margin:12px 0}
+    label{display:block;margin-top:8px;font-size:13px;color:#345}
+    input[type=text],input[type=email],textarea{width:100%;padding:8px;margin-top:6px;border-radius:6px;border:1px solid #dfeff6}
+    button{background:#0b67a4;color:white;border:none;padding:10px 14px;border-radius:8px;margin-top:10px;cursor:pointer}
+    .small{font-size:13px;color:#556977}
+    footer{margin-top:18px;font-size:13px;color:#6b7b86}
+    @media (max-width:520px){header{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+  <div class="wrap" role="main">
+    <header>
+      <div>
+        <div class="logo">AAT</div>
+        <h1>Alliance Against Trafficking</h1>
+        <div class="small">Awareness • Resources • Support (Atlanta)</div>
+      </div>
+      <div style="text-align:right">
+        <div class="small">Need help now?</div>
+        <div class="hotline">
+          <div>National Human Trafficking Hotline</div>
+          <a class="tel" href="tel:18883737888">1-888-373-7888</a><br>
+          <div class="small">Text <strong>BEFREE</strong> to 233733</div>
+        </div>
+      </div>
+    </header>
+
+    <p class="lead">Connecting survivors with safety and hope. Below are verified hotlines and a way to contact us for non-emergency support or partnership inquiries.</p>
+
+    <section class="card" aria-labelledby="resources">
+      <h2 id="resources">Immediate/local resources (Atlanta)</h2>
+      <ul class="small">
+        <li><strong>Georgia Hotline:</strong> <a href="tel:18663634842" class="tel">1-866-363-4842</a></li>
+        <li><strong>Frontline Response (intake):</strong> <a href="tel:4049416024" class="tel">404-941-6024</a></li>
+        <li><strong>Partnership Against Domestic Violence (Atlanta):</strong> <a href="tel:4048731766" class="tel">404-873-1766</a></li>
+      </ul>
+      <p class="small">If immediate danger: call <strong>911</strong>.</p>
+    </section>
+
+    <section class="card" aria-labelledby="contact">
+      <h2 id="contact">Contact (non-emergency)</h2>
+      <p class="small">Use this form for partnership requests, speaking invites, or volunteer interest. For urgent help, call the hotlines above.</p>
+
+      <!-- Formspree action: DO NOT change this line unless you have a different endpoint -->
+      <form action="https://formspree.io/f/mkgvlqlw" method="POST">
+        <input type="hidden" name="_subject" value="Message from Alliance Against Trafficking website">
+        <input type="hidden" name="_gotcha" style="display:none" />
+
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Downloads</h2>
+      <p class="small">Place your pamphlet PDFs in the site root and link them here (example names shown).</p>
+      <ul class="small">
+        <li><a href="pamphlet.pdf" target="_blank">Awareness Pamphlet (PDF)</a></li>
+        <li><a href="tearoff.pdf" target="_blank">Tear-off Mini Card (PDF)</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <div class="small">© Alliance Against Trafficking</div>
+      <div class="small">This site provides referrals only. For emergency help call 911.</div>
+    </footer>
+  </div>
+</body>
+</html>

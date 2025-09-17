@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alliance Against Trafficking</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #34558c;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: #eaeaea;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      color: #34558c;
+    }
+    .hero p {
+      max-width: 650px;
+      margin: 1rem auto;
+      font-size: 1.1rem;
+    }
+    .hotline {
+      background-color: #34558c;
+      color: white;
+      padding: 1rem;
+      margin: 1.5rem auto;
+      max-width: 500px;
+      border-radius: 8px;
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .section h2 {
+      color: #34558c;
+      margin-bottom: 1rem;
+    }
+    .downloads a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #34558c;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+    .downloads a:hover {
+      background-color: #2a4470;
+    }
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    form button {
+      background-color: #34558c;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .donate {
+      margin-top: 1rem;
+      display: inline-block;
+      padding: 1rem 2rem;
+      background-color: #222;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="AAT-Logo.png" alt="Alliance Against Trafficking Logo">
+  <nav>
+    <a href="#mission">Mission</a>
+    <a href="#resources">Resources</a>
+    <a href="#contact">Reach Out</a>
+  </nav>
+</header>
+
+<section class="hero" id="mission">
+  <h1>Alliance Against Trafficking</h1>
+  <p>We help survivors of human trafficking access safety, hope, and essential resources by serving on the front lines and donating directly to local shelters and support networks.</p>
+  <div class="hotline">
+    📞 Call: 1-888-373-7888 &nbsp; | &nbsp; 📱 Text: “BEFREE” (233733)
+  </div>
+</section>
+
+<section class="section" id="resources">
+  <h2>Awareness Resources</h2>
+  <p>Download and share these materials to raise awareness and provide vital information to those who need it most.</p>
+  <div class="downloads">
+    <a href="AAT-Resource-Flier.pdf" download>📄 Awareness Flier</a>
+    <a href="AAT-Awareness-Trifold.pdf" download>📑 Awareness Trifold</a>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <h2>Reach Out</h2>
+  <p>If you’d like to connect, volunteer, or request materials, please reach out using the form below.</p>
+  <form action="mailto:allianceagainsttrafficking@gmail.com" method="post" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <a class="donate" href="https://www.your-donation-link.com" target="_blank">❤️ Donate to Local Shelters</a>
+</section>
+
+<footer>
+  <p>© 2025 Alliance Against Trafficking | Contact: allianceagainsttrafficking@gmail.com</p>
+</footer>
+
+</body>
+</html>
